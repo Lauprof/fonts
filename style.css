@@ -1,0 +1,339 @@
+*{
+  padding: 0px;
+  margin:0px;
+  box-sizing: border-box;
+
+  
+  
+}
+html{
+  background-color:rgba(255,255,255,1);
+  
+}
+#last{
+  
+  font-family: font3;
+  text-align: center;
+  color: teal;
+  font-size: 20px;
+  text-decoration: underline;
+  text-decoration-style: dotted;
+  text-decoration-color: black;
+  
+}
+@font-face {
+  font-family: font1;
+  src: url('NotoSans-Bold.ttf');
+}
+
+@font-face {
+  font-family: font2;
+  src: url('Itim-Regular.ttf');
+}
+@font-face {
+  font-family: font3;
+  src: url("FiraSansExtraCondensed-Bold.ttf");
+}
+
+
+
+.head{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.list,.name,.user{
+  flex:33.3%;
+ 
+  padding: 5px;
+}
+#menu{
+  font-size: 30px;
+  color:grey;
+  
+}
+.name{
+  
+  font-family: font3;
+}
+.name #flag{
+  
+  font-size: 30px;
+  color: blue;
+  padding:14px;
+}
+.list{
+  
+  position: relative ;
+  
+  
+  
+}
+.list .parent{
+  position: fixed;
+  top:0px;
+  left:0;
+  bottom:0;
+  height:100%;
+  z-index: 4;
+  width:50%;
+  padding:10px;
+  background-color:white;
+transition:all 2s;
+  
+  
+}
+.parent ul {
+  list-style-type: none;
+  
+  
+}
+.parent ul li{
+  display: block;
+  padding:10px 13px;
+  width:100%;
+  color: black;
+  font-family: font2;
+}
+#cancel{
+  font-size: 39px;
+  
+  
+}
+.user #lightning{
+  font-size: 30px;
+  
+  margin-left:40px;
+}
+.hiring{
+  margin:15px;
+  border:1px solid white;
+  background-color: orange;
+  padding:10px;
+  border-radius: 13px;
+  font-family: font2;
+  font-size: 18px;
+  
+}
+.hiring .offer{
+  background-color: white;
+  border:1px solid white;
+  padding:12px;
+  border-radius: 12px;
+  box-shadow: 4px 12px 5px black;
+  margin-bottom: 10px;
+  width: 60%;
+}
+.offer a{
+  text-decoration:underline;
+  color: black;
+  text-decoration-style: dotted;
+}
+.input1{
+  margin:10px;
+  
+}
+input[type="search"]{
+  padding:15px;
+  background-color:white;
+  position: relative;
+  color: grey;
+  font-family: font3;
+  width:100%;
+  border:1px solid #000033;
+  border-radius: 18px;
+  background-image: url("searchicon.png");
+ 
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
+  padding-left: 40px;
+
+}
+
+input[type="search"]:focus{
+  outline-style: none;
+}
+input[type="search"] span{
+ float:right; 
+ padding:2px;
+  color: red;
+  
+}
+.intro{
+  background-color:lightsteelblue;
+  font-family: font3;
+  padding:10px;
+}
+.buttons{
+  background-color:lightsteelblue;
+  font-family: font3;
+  padding:10px;
+  
+}
+.button{
+  padding:13px;
+  border:1px solid white;
+  border-radius:15px;
+  background-color: white;
+  font-size: 18px;
+  font-family: font2;
+  
+}
+.flex2{
+  display:flex;
+  flex-wrap: wrap;
+  
+  background-color:lightsteelblue;
+}
+.item1{
+  flex:25%;
+  margin:10px;
+  height:80px;
+  background-color: white;
+  border:1px solid white;
+  border-radius: 6px;
+  padding:14px;
+  
+}
+.item1 p{
+  
+  font-family: font2;
+  text-align: center;
+  align-self: center;
+  color: orangered;
+}
+
+
+.page{
+  background-color: lightsteelblue;
+  padding:10px;
+  text-align: center;
+
+
+}
+.page span {
+  padding:15px;
+  display: inline-block;
+  font-family: font1;
+  text-align: center;
+  
+  
+}
+.page span a{
+  text-decoration-style: dotted;
+  text-decoration-color: blue;
+  color: blue;
+  font-family: font2;
+}
+.footer{
+  background-color: #000033;
+  
+  
+}
+.footer p{
+  
+  font-family: font2;
+  color:white;
+  padding:14px;
+}
+
+.lists{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.list1,.list2,.list3{
+  
+  flex:25%;
+  margin:10px;
+}
+.list1 ul{
+  list-style-type: none;
+}
+.list1 ul li{
+  color: white;
+  padding:10px 3px;
+  font-family: font3;
+  
+}
+.list1 ul li:nth-child(1){
+  color: grey;
+  
+}
+.list2 ul{
+  list-style-type: none;
+}
+.list2 ul li{
+  color: white;
+  padding:10px 3px;
+  font-family: font3;
+  
+}
+.list2 ul li:nth-child(1){
+  color: grey;
+  
+}
+.list3 ul{
+  list-style-type: none;
+}
+.list3 ul li{
+  color: white;
+  padding:10px 3px;
+  font-family: font3;
+  
+}
+.list3 ul li:nth-child(1){
+  color: grey;
+  
+}
+
+.info ol{
+  list-style-type: none;
+  
+}
+.info ol li{
+  color: red;
+  text-align: center;
+  padding:10px 10px;
+  font-family: font3;
+  
+  
+}
+.list1 ul li:nth-child(1){
+  color: grey;
+  
+}
+@media screen and (min-width:788px) {
+  
+  .item1{
+    flex:25%;
+    
+    height:150px;
+    
+  }
+  
+  html{
+    font-size: 30px;
+    
+  }
+  
+  .hiring{
+    width:60%;
+    position: relative;
+    left:20%;
+    font-size: 35px;
+    
+    
+  }
+  #menu{
+    font-size: 55px;
+    
+  }
+  .name #flag{
+    font-size: 55px;
+  }
+  
+  .user #lightning{
+    font-size: 50px;
+  }
+}

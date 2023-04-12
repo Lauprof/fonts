@@ -43,7 +43,7 @@ html{
   
 }
 .list,.name,.user{
-  flex:33.3%;
+  flex:25%;
  
   padding: 5px;
 }
